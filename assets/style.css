@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow: auto;
+}
+body {
+  overflow-y: hidden;
+  overflow: hidden;
+  font-size: 1.6rem;
+}
+
+div {
+  display: block;
+}
+.main {
+  width: 100;
+  height: 100;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.container-screens {
+  width: 80vw;
+  height: 80vh;
+  border: 2px solid black;
+}
+
+.recorder {
+  width: 100%;
+  height: 100%;
+}
+.audio {
+  width: 100%;
+  height: 100%;
+}
+.video {
+  width: 100%;
+  height: 100%;
+}
+.screen {
+  width: 100%;
+  height: 100%;
+}
+
+.audio,
+.video,
+.screen {
+  display: none;
+}
+.options {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+i {
+  color: brown;
+}
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+  font-size: 0.9em;
+}
+button:hover {
+  background-color: bisque;
+}
+
+#recordAudio {
+  background-color: #9fd6ba;
+}
